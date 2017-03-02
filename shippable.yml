@@ -48,4 +48,4 @@ build:
     - echo "$d"   
     - echo "$ZERO"
     - echo "$ONE"
-
+    - echo "$THREE" #custom build env key
