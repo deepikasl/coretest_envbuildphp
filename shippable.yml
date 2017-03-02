@@ -8,21 +8,16 @@ php:
   #- 5.6
   - 7.0
 
-env:
-  global:
-    - FOO=FAR
-      BOO=BAR
-    - secure: V++tZ+9/Cbx9fUzo78caactXwd4MU6v+1Fb9g+9Tx/v8jHdzayasIQ0qKBe+Z1xWQ7kAFHYEuBdxRSDa8slH5mynnMpo4RiDUHNxX8QE2fqrsPhShAM3xHnuq05LS3k29p9qCkwndqehvrwQ2XEBJTae9yqfnuoioAngEqglnyc2amLl3wqzTWrJHYw20J47WCyhOgyng0tyriLBzU9sKN6j7M5XNTUXZ1asSU7d6i3Egm74hO84SfvYoPGpx4iEUo/c6TW0upbWdUXZL1SccBRLFbhYfNOr0s28IMH28S0D0qbI4t1CJU9fjzL7YEMbKmoe+18qZplNo+VVbgjtOQ== #ALPHA=gone
-    - a: 1 
-      b: 2
-    - c=3 d=4
-  
-  matrix:
-    - ZERO=0 ONE=1
-    - secure: GRu0fMclUCk7YaDzQ1G6PWRadp5OS5BflLVt4IqzAA8pQFNKQM5eVBkFSbzAm8LfWYQMm+DOhCHOMgQA8KIAaC6wQuXXBrYOtYqFA/K1/+sULJq8LQOlG0g4yXtYq7N9otVFDI9+Ruyp7xo+aS1/M/HlNsoQhfyZ04q9mgJDJyintCu8yKfHWYRChamAhxsfwQEbdtDVleOci08j8EXhFQnPinVA6f4MUoMJuTfp+wE4NMhicgaBlpF+K4McTkwMkSquSDEFvprQlNXvYwvvqSLFYOyW62Q8pSQdkCuqofktmMQXt+n+yBHO6zRo5kFc5PVR6N3Hywt2d1O7MIaayw== #BETA=gone
-      secure: S/H82ozbN6HcFb5WOhJH+HdLuhBtKJrvGJ9W7fFCY6n7BjjayqMTsVQ5RE8Mg6CVu6sccDQgd/LEKz0VUwfnX5Uba0UOVfh116jbOPaZ0JRul3/ejcufY6ULVce0D1NsNBuXAd88t1uPB0jHaiLWN7Bm9NO0qwUtHcZgVEduSnQC/L2vpd4xkiARMdEbWUmVVTiodmEkemIMsjHZSrRzqEgzbfFw0iP3vkuX+vlM7fuyfIwDwUebGn48sCABSufKyEMfldth+iLdpL7mxSeP8YA3nofRr90xAKtGN/6pFxdqd4vkt7JSGYc3rnv6ZzNuzBPQk5rsASSkoZfNLiENcQ== #ISOLATED=false
-    - TWO=2
-    - FIVE=5
+env: 
+  global: 
+    - BOO:Bar #valid
+      FOO:TAR #valid
+      test12:beta12 #valid
+    - TEST="bar" # valid   
+    - ZUB=tub MUB=sub SUG=lig  #valid
+    - YUB=*rub #valid
+    - EUG: po@*p #valid
+    - secure: Q2pyIroMxhUX756uo61L8a3yIFAHFVt13zYxRLpp7wkH1dvNd3lvjzg3tZG5qmt+k0QOgNJm7ai+SJqnHpzUdLjoccbp9bofXHcWr6nzwVxR8uF+nAAOHp1S/mk99HVIPOVF8ZmLoFtZnV+Dr8i6i1/KfVgqYOWIkMqcSJqD/0L6P1+P0JuTpWzEnKYO3d3v3//SA0oGdqXWBNHjYMYJ14rCnfzeZF7rZx9KJhXY4KfDsMD9CkVK6lpe5BqGy/KQIXlq8DkNGA2idQNyr6ruzUcEMu/yYpboIQ1P/O3DXLN+87syjqXFG6E6k0JYoxTwchIrMe+QYStmmnrFd5R9xw== #RC=test 
   
 build:
 
@@ -30,15 +25,14 @@ build:
     - php --version
     - echo "$FOO"
     - echo "$BOO"
-    - echo "$ALPHA"
-    - echo "$ISOLATED"
-    - echo "$BETA"
-    - echo "$a"
-    - echo "$b"
-    - echo "$c"
-    - echo "$d"   
-    - echo "$ZERO"
-    - echo "$ONE"
+    - echo "$test12"
+    - echo "$TEST"
+    - echo "$ZUB"
+    - echo "$MUB"
+    - echo "$SUG"
+    - echo "$YUB"
+    - echo "$EUG"   
+    - echo "$RC"
     - echo "$THREE" #custom build env key
     - echo "$FOUR" #custom build env key
-    - echo "$FIVE"
+    
