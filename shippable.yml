@@ -6,21 +6,21 @@ php:
   - 5.4
   #- 5.5
   #- 5.6
-  #- 7.0
+  - 7.0
 
 env:
   global:
     - FOO=FAR
       BOO=BAR
-    - secure: V++tZ+9/Cbx9fUzo78caactXwd4MU6v+1Fb9g+9Tx/v8jHdzayasIQ0qKBe+Z1xWQ7kAFHYEuBdxRSDa8slH5mynnMpo4RiDUHNxX8QE2fqrsPhShAM3xHnuq05LS3k29p9qCkwndqehvrwQ2XEBJTae9yqfnuoioAngEqglnyc2amLl3wqzTWrJHYw20J47WCyhOgyng0tyriLBzU9sKN6j7M5XNTUXZ1asSU7d6i3Egm74hO84SfvYoPGpx4iEUo/c6TW0upbWdUXZL1SccBRLFbhYfNOr0s28IMH28S0D0qbI4t1CJU9fjzL7YEMbKmoe+18qZplNo+VVbgjtOQ== #ALPHA=gone
+    - secure: V++tZ+9/Cbx9fUzo78caactXwd4MU6v+1Fb9g+9Tx/v8jHdzayasIQ0qKBe+Z1xWQ7kAFHYEuBdxRSDa8slH5mynnMpo4RiDUHNxX8QE2fqrsPhShAM3xHnuq05LS3k29p9qCkwndqehvrwQ2XEBJTae9yqfnuoioAngEqglnyc2amLl3wqzTWrJHYw20J47WCyhOgyng0tyriLBzU9sKN6j7M5XNTUXZ1asSU7d6i3Egm74hO84SfvYoPGpx4iEUo/c6TW0upbWdUXZL1SccBRLFbhYfNOr0s28IMH28S0D0qbI4t1CJU9fjzL7YEMbKmoe+18qZplNo+VVbgjtOQ==
     - a: 1 
       b: 2
     - c=3 d=4
   
   matrix:
     - ZERO=0 ONE=1
-    - secure: GRu0fMclUCk7YaDzQ1G6PWRadp5OS5BflLVt4IqzAA8pQFNKQM5eVBkFSbzAm8LfWYQMm+DOhCHOMgQA8KIAaC6wQuXXBrYOtYqFA/K1/+sULJq8LQOlG0g4yXtYq7N9otVFDI9+Ruyp7xo+aS1/M/HlNsoQhfyZ04q9mgJDJyintCu8yKfHWYRChamAhxsfwQEbdtDVleOci08j8EXhFQnPinVA6f4MUoMJuTfp+wE4NMhicgaBlpF+K4McTkwMkSquSDEFvprQlNXvYwvvqSLFYOyW62Q8pSQdkCuqofktmMQXt+n+yBHO6zRo5kFc5PVR6N3Hywt2d1O7MIaayw== #BETA=gone
-      secure: S/H82ozbN6HcFb5WOhJH+HdLuhBtKJrvGJ9W7fFCY6n7BjjayqMTsVQ5RE8Mg6CVu6sccDQgd/LEKz0VUwfnX5Uba0UOVfh116jbOPaZ0JRul3/ejcufY6ULVce0D1NsNBuXAd88t1uPB0jHaiLWN7Bm9NO0qwUtHcZgVEduSnQC/L2vpd4xkiARMdEbWUmVVTiodmEkemIMsjHZSrRzqEgzbfFw0iP3vkuX+vlM7fuyfIwDwUebGn48sCABSufKyEMfldth+iLdpL7mxSeP8YA3nofRr90xAKtGN/6pFxdqd4vkt7JSGYc3rnv6ZzNuzBPQk5rsASSkoZfNLiENcQ== #ISOLATED=false
+    - secure: GRu0fMclUCk7YaDzQ1G6PWRadp5OS5BflLVt4IqzAA8pQFNKQM5eVBkFSbzAm8LfWYQMm+DOhCHOMgQA8KIAaC6wQuXXBrYOtYqFA/K1/+sULJq8LQOlG0g4yXtYq7N9otVFDI9+Ruyp7xo+aS1/M/HlNsoQhfyZ04q9mgJDJyintCu8yKfHWYRChamAhxsfwQEbdtDVleOci08j8EXhFQnPinVA6f4MUoMJuTfp+wE4NMhicgaBlpF+K4McTkwMkSquSDEFvprQlNXvYwvvqSLFYOyW62Q8pSQdkCuqofktmMQXt+n+yBHO6zRo5kFc5PVR6N3Hywt2d1O7MIaayw==
+      secure: S/H82ozbN6HcFb5WOhJH+HdLuhBtKJrvGJ9W7fFCY6n7BjjayqMTsVQ5RE8Mg6CVu6sccDQgd/LEKz0VUwfnX5Uba0UOVfh116jbOPaZ0JRul3/ejcufY6ULVce0D1NsNBuXAd88t1uPB0jHaiLWN7Bm9NO0qwUtHcZgVEduSnQC/L2vpd4xkiARMdEbWUmVVTiodmEkemIMsjHZSrRzqEgzbfFw0iP3vkuX+vlM7fuyfIwDwUebGn48sCABSufKyEMfldth+iLdpL7mxSeP8YA3nofRr90xAKtGN/6pFxdqd4vkt7JSGYc3rnv6ZzNuzBPQk5rsASSkoZfNLiENcQ==
     - TWO=2
     - FIVE=5
   
