@@ -47,3 +47,6 @@ build:
     - echo "$FOUR" #custom build env key
     - echo "$ROO"
     - echo "$ME"
+    - echo "$TODAY"
+    - echo "$TOMO"
+    - echo "$YEST"
