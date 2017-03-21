@@ -9,8 +9,8 @@ php:
   - 7.0
 
 env:  
-  BOO: Bar
-  FOO: TAR 
+  - BOO: Bar
+    FOO: TAR 
   #test12: beta12 #valid
  # - TEST="bar" # valid   
   #- ZUB=tub MUB=sub SUG=lig  #valid
@@ -22,9 +22,9 @@ matrix:
   include:
     - php: 5.4
       env: 
-        - TODAY=21mar
-        - TOMO=22mar
-        - YEST=23mar
+        TODAY=21mar
+        TOMO=22mar
+        YEST=23mar
           # secure: jYWXrFUtNi26XYZYiOXHRnbcput0pnh04ilIYs9rE9Lfax6+h4EkNNTU1iB6vHqvsGLNid/fyEBI8Ix6VFHbkuiiI0lz+1D/j6wYH75f6u9c4rtcn+o1+ZoVv5LBo4npbOlETTXU6iIpX9phY+a+NB+3QxI7z2d8cVnNKxrShDb75GUEUx9jarxfNRTizdRSAI9n2zl3EYp5kGzcaC9WA2GKG7tKFZjX+ydntT+UaTvxs9LMwwzvz/4ApqUtzTr1SCAQrVuD1Z0DJgUxTwgcCTCahMtFfNkMy/8cHDMWt6QnRUubxfA8m3gHbiHzBaHbRqoHXcCBkFVSQs+YVliiiA==
     - php: 5.5
       env: 
