@@ -11,7 +11,7 @@ php:
 env:  
   - BOO: Bar
     FOO: TAR 
-    test12=beta12 #valid
+    test12: beta12 #valid
   - TEST="bar" # valid   
   - ZUB=tub MUB=sub SUG=lig  #valid
   #- YUB=*rub #valid
