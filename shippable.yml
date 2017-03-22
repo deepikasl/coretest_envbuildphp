@@ -8,9 +8,10 @@ php:
   #- 5.6
   - 7.0
 
-env:  
-  - BOO: Bar
-    FOO: TAR 
+env:
+  global:
+    - BOO: Bar
+      FOO: TAR 
   #test12: beta12 #valid
  # - TEST="bar" # valid   
   #- ZUB=tub MUB=sub SUG=lig  #valid
