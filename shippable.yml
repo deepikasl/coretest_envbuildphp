@@ -56,5 +56,5 @@ build:
     - echo "$TODAY"
     - echo "$TOMO"
     - echo "$YEST"
-    - echo "$one"
+    - echo "$two"
     
