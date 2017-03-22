@@ -11,7 +11,11 @@ php:
 env:
   global:
     - BOO: Bar
-      FOO: TAR 
+    - FOO: TAR 
+      
+  matrix:
+    - THREE=tri
+    - FOUR=our
   #test12: beta12 #valid
  # - TEST="bar" # valid   
   #- ZUB=tub MUB=sub SUG=lig  #valid
