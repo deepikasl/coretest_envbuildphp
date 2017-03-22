@@ -9,7 +9,6 @@ php:
   - 7.0
 
 env:
-  global:
     - BOO: Bar
     - FOO: TAR 
       
@@ -31,11 +30,18 @@ matrix:
     - php: 5.5
       env: 
         - ROO=too
+  allow_failures:
+    - php: 7.0
+      env:
+        - BOO: Bar
+    
         
 build:
 
   ci:
     - php --version
+    
+    - if [ "$SHIPPABLE_NODE_VERSION" == "7.0" ]; then foobar; fi 
     - echo "$FOO"
     - echo "$BOO"
     - echo "$test12"
