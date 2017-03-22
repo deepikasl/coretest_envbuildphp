@@ -49,4 +49,4 @@ build:
     - echo "$ME"
     - echo "$TODAY"
     - echo "$TOMO"
-    - echo "$YEST"
+    - echo "$YEST"   
