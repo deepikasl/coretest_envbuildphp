@@ -32,8 +32,8 @@ matrix:
         - ROO=too
   allow_failures:
     - php: 7.0
-      env:
-        - BOO: Bar
+    #  env:
+     #   - BOO: Bar
     
         
 build:
