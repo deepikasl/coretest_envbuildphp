@@ -17,8 +17,7 @@ env:
     - ZUB=tub MUB=sub SUG=lig  #valid
     - YUB=*rub #valid
     - EUG: po@*p #valid
-    - 34test=me1234
-  #  - secure: Q2pyIroMxhUX756uo61L8a3yIFAHFVt13zYxRLpp7wkH1dvNd3lvjzg3tZG5qmt+k0QOgNJm7ai+SJqnHpzUdLjoccbp9bofXHcWr6nzwVxR8uF+nAAOHp1S/mk99HVIPOVF8ZmLoFtZnV+Dr8i6i1/KfVgqYOWIkMqcSJqD/0L6P1+P0JuTpWzEnKYO3d3v3//SA0oGdqXWBNHjYMYJ14rCnfzeZF7rZx9KJhXY4KfDsMD9CkVK6lpe5BqGy/KQIXlq8DkNGA2idQNyr6ruzUcEMu/yYpboIQ1P/O3DXLN+87syjqXFG6E6k0JYoxTwchIrMe+QYStmmnrFd5R9xw== #RC=test 
+    - secure: Q2pyIroMxhUX756uo61L8a3yIFAHFVt13zYxRLpp7wkH1dvNd3lvjzg3tZG5qmt+k0QOgNJm7ai+SJqnHpzUdLjoccbp9bofXHcWr6nzwVxR8uF+nAAOHp1S/mk99HVIPOVF8ZmLoFtZnV+Dr8i6i1/KfVgqYOWIkMqcSJqD/0L6P1+P0JuTpWzEnKYO3d3v3//SA0oGdqXWBNHjYMYJ14rCnfzeZF7rZx9KJhXY4KfDsMD9CkVK6lpe5BqGy/KQIXlq8DkNGA2idQNyr6ruzUcEMu/yYpboIQ1P/O3DXLN+87syjqXFG6E6k0JYoxTwchIrMe+QYStmmnrFd5R9xw== #RC=test 
   
 build:
 
@@ -36,5 +35,5 @@ build:
     - echo "$RC"
     - echo "$THREE" #custom build env key
     - echo "$FOUR" #custom build env key
-    - echo "$34test"
+
     
