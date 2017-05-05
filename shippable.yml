@@ -42,4 +42,7 @@ build:
     - echo "$a"
     - echo "$b"
     - echo "$c"
-    - echo "$d"    
+    - echo "$d" 
+    - echo JOB_TRIGGERED_BY_NAME=$JOB_TRIGGERED_BY_NAME 
+    - echo JOB_TRIGGERED_BY_ID=$JOB_TRIGGERED_BY_ID
+    
