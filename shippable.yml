@@ -33,14 +33,15 @@ build:
 
   ci:
     - php --version
-    - echo "$FOO"
-    - echo "$BOO"
-    - echo "$ALPHA"
-    - echo "$ISOLATED"
-    - echo "$BETA"
-    - echo "$a"
-    - echo "$b"
-    - echo "$c"
-    - echo "$d" 
     - echo JOB_TRIGGERED_BY_NAME=$JOB_TRIGGERED_BY_NAME 
-    - echo JOB_TRIGGERED_BY_ID=$JOB_TRIGGERED_BY_ID    
+    - echo JOB_TRIGGERED_BY_ID=$JOB_TRIGGERED_BY_ID 
+ #   - echo "$FOO"
+ #   - echo "$BOO"
+ #   - echo "$ALPHA"
+ #   - echo "$ISOLATED"
+ #   - echo "$BETA"
+ #   - echo "$a"
+ #   - echo "$b"
+ #   - echo "$c"
+ #   - echo "$d" 
+       
