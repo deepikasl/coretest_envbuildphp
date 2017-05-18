@@ -10,7 +10,7 @@ php:
 
 env:   
   global:
-    - FOO=FAR
+    - FOO=FAR 
     - BOO=BAR
  # - secure: V++tZ+9/Cbx9fUzo78caactXwd4MU6v+1Fb9g+9Tx/v8jHdzayasIQ0qKBe+Z1xWQ7kAFHYEuBdxRSDa8slH5mynnMpo4RiDUHNxX8QE2fqrsPhShAM3xHnuq05LS3k29p9qCkwndqehvrwQ2XEBJTae9yqfnuoioAngEqglnyc2amLl3wqzTWrJHYw20J47WCyhOgyng0tyriLBzU9sKN6j7M5XNTUXZ1asSU7d6i3Egm74hO84SfvYoPGpx4iEUo/c6TW0upbWdUXZL1SccBRLFbhYfNOr0s28IMH28S0D0qbI4t1CJU9fjzL7YEMbKmoe+18qZplNo+VVbgjtOQ== #ALPHA=gone
  #   a: 1 
