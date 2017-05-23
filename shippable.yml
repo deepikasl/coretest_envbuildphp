@@ -20,10 +20,12 @@ env:
 matrix:
   include:
     - php: 5.5
-        - env: ISOLATED=false
-        - env: ME=v
+        #env: ISOLATED=false
+       # env: ME=v
     #- php: 5.6
-     # env: *(RC=test
+     # env: 
+        # - *(RC=test
+        # - a=1
   
  # allow_failures:
   #  - php: 5.6
