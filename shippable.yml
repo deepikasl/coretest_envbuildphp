@@ -43,4 +43,4 @@ build:
     - echo "$FOO"
     - echo "$BOO"
     - echo "$ME"
-    - echo "$ISOLATED"
+    - echo "$ISOLATED"  
