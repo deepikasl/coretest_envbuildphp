@@ -21,7 +21,7 @@ env:
     - secure: GqFW0I5CcpynkKv5b/+Xg+KE+a9tRSoQkWTCOKlka4J7nSqn2RmlP0rlcSZ4osb802Gz7+rkKBTenKLzWDjKin4DWyig6sV5ANV2RKruwNzKI3wSzxnbM/ub4OM8AQZikL/kG9tmtWyJCCcBOMcVSl6pAExrqTqWccQ3OjGlA4dZH5ZlCNr4AVmXw37lAJ3t2usgTJD5N8MPfCDL5G2OK12yDfPrdCggwxQpOjP7rK9Pm5LhLqnb0R58PH5Q+zpX4roy1Gnen88jIhNWrM1DRGU4fMkYTEc0g1IKdUs8SID6d5tUnmm1xOVOHDiRM2S9uM8CWARjo/9A06dPzSIyDA==
    # - secure: v4X0sLM1Vzj3WuIGd0QCNiyJ/PciMashmYopgelt0+qzrq4ARd9o9qgoz6m6WMBYl/KWThYQluJUjBx7TkIY0eb83/U+umK1OAs0S0dt9dpF4stNngHj/3UQ6FstqEzqZdk3EfvC6jE3N0IpNf9jpsfkafwESpfllyK6dfO8bo0OC7xu68O8yc5xe65mf8RzyTG4f9kbYnRZYvIP6+tzY58cQMfNDEtwX7nOXtS6HniHVozdCkJ699NNZg349E/emKAYQ0blH7VBIPbPxMP4xAx7jqu2Lp08i7mrL3xI5NpD6+hgTOmQHVsDQ3TvQKq59+a9u3nBIUegMqR5l4kJ3A==
     - secure: Uo4u+s1kh8OWVxRNg9h/u+72R7wR278p4lO7dKDEqpM8DwojKbjQPWbf13gFuzbM7kGhSww2hlgt6XGpt0MIbjKBXaEYMrqProOQBL4+KA2i70opYbIV0i2BWeSXPX97xrf7+GLbVVHkOAZXscXFTVb3ikAhX7p9RO/gef4PQffJ4zsMWfhD/2AnOKLuTifheWIs+H9FDGtB0BogjjNPhdBOANe/scLz+Wfe50kSbfhCHtJubH+/IaeqhOmnZ1GYJG1UG29Ix2VBuQIt0ArGXowHJ6UDtOxJZpqPI84YskD41V2uPfz5rE9268eKrJvI+zRRUB5jYvN5t2+BZ6zOCQ==
-        
+    - secure: LaOCZZTqhT7rC4XsMJkYVYwrfptRSHnb4LAsrZjqpO0NHmCziLwnBO1ejd4MfoG9r8z7SEc3RRaRS177c4crc1AS07/9T+cEh9ZEn4r/vu9cJD14uE7SrRR7QAw+YyM0qGiTGi9Pl/JEvt/tdjG1FX4ll2jFGhXhqsIbM6cqsvItZ8n8cTZA5lI6iIxQgH6Ng/KKWqIi14CWZXPTeNrLyMg9KrF/xqJhIrn8Q/VshQc2jAKXsXNxttx6sBksjms8dFlip0yfy00HKdWd01Q1HxGGrmjE5yhdwioUW/l6MXLFoNDyxREqujDaVF2WePiMu4sExtMPBfDxeBqnMEqdUA==
     
 # - FOO=FAR 
  # - BOO=BAR
@@ -65,6 +65,7 @@ build:
     - echo $test
     - echo $key1
     - echo $key2
+    - echo $zz
     
     #- echo "$FOO"
     #- echo "$BOO"
