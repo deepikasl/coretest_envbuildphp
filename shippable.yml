@@ -9,7 +9,7 @@ php:
  # - 7.0
 
 env:   
- # global:
+  global:
   #  - secure: b3WbjQpoOn2KFfXjwtK3bVG7Wn1Zfyzz3MsYNTCTS2Qrn0i8DsNSciEkvXhx9aTXFqFLV4sIuPn/X2KW72hz3adgg/OFa3MAWEMQYEnilv5WD1+LBttNWgDRo8YuUXmvO7FcVf2JVSQ6Ie24NnyJEYqMMaD0os1DVxiiJg45PxTe/wELPH8E9YyFet2lyI304ti5r13bnxeaAFtIbUPAL/C+or8vgBuluivdoe2cSQJuoXUCHRqyeEXWHE5KvbhFLBNWOzQG/MslNL6gTVtRnValPJtbRSK3QPQjNzueq2rNwzWbo7G3AYMIx/3/8seAehWtMjC2G9/e7jrfRdgM9w==
   #  - secure: rIM0ClK1oLQOY5Sa3boKsBGmJmd+l1Y8slcveib5ilbIWKNtU/toZnIDOq3yHXPK3h6Uvueilhmczw41YwBZh+wNGt9jLa6jr/7rTPf8VYChf1XFfF1LXnKuwYjD6u17jz+1PRey6yJEe1JL+Mu+u5sHuMoST5e6Zv+e/94z96KicergoicXySGjdnWwTce1DHposaIZxJZLnxemHP+z79D7166/24tDv0yQdq0wJidqBPsntHrOS9CecSylKVz+mZo3JnsDKzhVVg9vkfgyo7CXPN8Wza3iLtJf+f4DZldYZslJqoi1ForkZSVX3HsbP7XgGoO+kAo7sV+51dI83A==
  #wrong   - secure: E1PdRpriQcNlYbwEaSRQ+XSi+WsRtveLg6+coqS5ODP/DAAijB/it8nlrlAI6+sXiwJnlpNUzSvBm97KzVvVttdrLnCiwhtnQPt0qbA2okxuQEEkFnYY8uh7ExcT5Eo1RlDWg6HWEo9trtVnFnNbIOLkN8pNiQnXg7+haAGSRWQULXH/8ycTXsyCPwDTNRIh5Pmnl4jBwg/l1NLbFnfCrgNYHPR/7MevHesjt24aTNeWYeDsipGl2zcILQII9d5rxaifX6KXbZa7itxPTj/Q4xo8MlKIR0rnQbcgCRC3NPkdfE2rTPyGDP6msBvm0ApyUBDTnyav5rOzizRbmS5LgA==
@@ -23,8 +23,8 @@ env:
   #  - secure: Uo4u+s1kh8OWVxRNg9h/u+72R7wR278p4lO7dKDEqpM8DwojKbjQPWbf13gFuzbM7kGhSww2hlgt6XGpt0MIbjKBXaEYMrqProOQBL4+KA2i70opYbIV0i2BWeSXPX97xrf7+GLbVVHkOAZXscXFTVb3ikAhX7p9RO/gef4PQffJ4zsMWfhD/2AnOKLuTifheWIs+H9FDGtB0BogjjNPhdBOANe/scLz+Wfe50kSbfhCHtJubH+/IaeqhOmnZ1GYJG1UG29Ix2VBuQIt0ArGXowHJ6UDtOxJZpqPI84YskD41V2uPfz5rE9268eKrJvI+zRRUB5jYvN5t2+BZ6zOCQ==
   #  - secure: LaOCZZTqhT7rC4XsMJkYVYwrfptRSHnb4LAsrZjqpO0NHmCziLwnBO1ejd4MfoG9r8z7SEc3RRaRS177c4crc1AS07/9T+cEh9ZEn4r/vu9cJD14uE7SrRR7QAw+YyM0qGiTGi9Pl/JEvt/tdjG1FX4ll2jFGhXhqsIbM6cqsvItZ8n8cTZA5lI6iIxQgH6Ng/KKWqIi14CWZXPTeNrLyMg9KrF/xqJhIrn8Q/VshQc2jAKXsXNxttx6sBksjms8dFlip0yfy00HKdWd01Q1HxGGrmjE5yhdwioUW/l6MXLFoNDyxREqujDaVF2WePiMu4sExtMPBfDxeBqnMEqdUA==
   #  
-  - FOO=FAR 
-  - BOO=BAR
+    - FOO=FAR 
+    - BOO=BAR
  # - secure: V++tZ+9/Cbx9fUzo78caactXwd4MU6v+1Fb9g+9Tx/v8jHdzayasIQ0qKBe+Z1xWQ7kAFHYEuBdxRSDa8slH5mynnMpo4RiDUHNxX8QE2fqrsPhShAM3xHnuq05LS3k29p9qCkwndqehvrwQ2XEBJTae9yqfnuoioAngEqglnyc2amLl3wqzTWrJHYw20J47WCyhOgyng0tyriLBzU9sKN6j7M5XNTUXZ1asSU7d6i3Egm74hO84SfvYoPGpx4iEUo/c6TW0upbWdUXZL1SccBRLFbhYfNOr0s28IMH28S0D0qbI4t1CJU9fjzL7YEMbKmoe+18qZplNo+VVbgjtOQ== #ALPHA=gone
  #   a: 1 
  #   b: 2
