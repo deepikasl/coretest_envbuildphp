@@ -65,8 +65,7 @@ build:
     - echo $test
     - echo $key1
     - echo $key2
-    - echo $zz
-    
+    - echo $zz    
     #- echo "$FOO"
     #- echo "$BOO"
     #- echo "$ME"
