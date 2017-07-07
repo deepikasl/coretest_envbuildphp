@@ -10,6 +10,7 @@ php:
 
 env:   
   global:
+    - GITHUB=https://github.com
   #  - secure: b3WbjQpoOn2KFfXjwtK3bVG7Wn1Zfyzz3MsYNTCTS2Qrn0i8DsNSciEkvXhx9aTXFqFLV4sIuPn/X2KW72hz3adgg/OFa3MAWEMQYEnilv5WD1+LBttNWgDRo8YuUXmvO7FcVf2JVSQ6Ie24NnyJEYqMMaD0os1DVxiiJg45PxTe/wELPH8E9YyFet2lyI304ti5r13bnxeaAFtIbUPAL/C+or8vgBuluivdoe2cSQJuoXUCHRqyeEXWHE5KvbhFLBNWOzQG/MslNL6gTVtRnValPJtbRSK3QPQjNzueq2rNwzWbo7G3AYMIx/3/8seAehWtMjC2G9/e7jrfRdgM9w==
   #  - secure: rIM0ClK1oLQOY5Sa3boKsBGmJmd+l1Y8slcveib5ilbIWKNtU/toZnIDOq3yHXPK3h6Uvueilhmczw41YwBZh+wNGt9jLa6jr/7rTPf8VYChf1XFfF1LXnKuwYjD6u17jz+1PRey6yJEe1JL+Mu+u5sHuMoST5e6Zv+e/94z96KicergoicXySGjdnWwTce1DHposaIZxJZLnxemHP+z79D7166/24tDv0yQdq0wJidqBPsntHrOS9CecSylKVz+mZo3JnsDKzhVVg9vkfgyo7CXPN8Wza3iLtJf+f4DZldYZslJqoi1ForkZSVX3HsbP7XgGoO+kAo7sV+51dI83A==
  #wrong   - secure: E1PdRpriQcNlYbwEaSRQ+XSi+WsRtveLg6+coqS5ODP/DAAijB/it8nlrlAI6+sXiwJnlpNUzSvBm97KzVvVttdrLnCiwhtnQPt0qbA2okxuQEEkFnYY8uh7ExcT5Eo1RlDWg6HWEo9trtVnFnNbIOLkN8pNiQnXg7+haAGSRWQULXH/8ycTXsyCPwDTNRIh5Pmnl4jBwg/l1NLbFnfCrgNYHPR/7MevHesjt24aTNeWYeDsipGl2zcILQII9d5rxaifX6KXbZa7itxPTj/Q4xo8MlKIR0rnQbcgCRC3NPkdfE2rTPyGDP6msBvm0ApyUBDTnyav5rOzizRbmS5LgA==
@@ -52,7 +53,8 @@ build:
     - php --version
     - echo https://google.com
     - echo link to prod https://www.shippable.com
-    - curl www.shippable.com
+    - echo $GITHUB
+  #  - curl www.shippable.com
     - echo JOB_TRIGGERED_BY_NAME=$JOB_TRIGGERED_BY_NAME 
     - echo JOB_TRIGGERED_BY_ID=$JOB_TRIGGERED_BY_ID 
     - echo JOB_ID=$JOB_ID
