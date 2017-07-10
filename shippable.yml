@@ -19,4 +19,5 @@ build:
     - echo link to prod https://www.shippable.com
     - echo $GITHUB
     - echo build link $buildLink
+    - cat largetext.txt
   #  - curl www.bitbucket.org
