@@ -1998,4 +1998,4 @@ Mauris malesuada nibh pulvinar quam hendrerit, eu convallis sapien eleifend. Nun
 
 Duis accumsan massa vel nisl auctor, elementum vestibulum tellus sollicitudin. Morbi imperdiet sagittis pharetra. Morbi ac commodo ante. Curabitur ac nisl at elit rutrum posuere. Nullam quam dolor, hendrerit id gravida in, congue vestibulum erat. Etiam posuere ex vel velit hendrerit suscipit in sit amet urna. Nulla aliquam dignissim mi, sed commodo sem venenatis sit amet. Etiam malesuada ultricies rhoncus. Aliquam ac gravida massa, id vulputate dolor. Donec porttitor porta posuere.
 
-release job: https://rcapp.shippable.com/github/shiphitchcock1/jobs/ar-release/builds/5963515379e82205008a7dd1
+release job: https://rcapp.shippable.com/github/shiphitchcock1/jobs/ar-release/builds/5963515379e82205008a7dd1 602kb
