@@ -15,6 +15,8 @@ env:
   - a: 1 
     b: 2
   - c=3 d=4
+  - secure: a3DUHoorfeMgxqf+tKkrg60J9oF6ayEvNUV53G0JsX67yoelt2CRwG0elwpqGxN6LciLnDIQbXFpQV2DkSu1Aj3tYkgBqx7AdIJurHluP3b+z2lsSIp/HEBZPCTaEwVuK7k09rs3xX3zcOUakhNDLjLPSKKqA4hC9U9Qi9UB+FMQQPi/82yoI5NiHawPZxBo4g/CHAyWqmd9QUk6jeZ/7MYvXC+4aWU+5+T/aPM5XD5pcO8va8j5O9+dy0JOR0sF2NR4Z9sh4JsPjwK8OEoas1Lfo/DoHg0GCuJpgFHns9V3tnvxx1QdvIi9c4HF7bHEIW/faLcGKtrDRRn99YR+fg==
+  - secure: FHr2+QGgkVSQ/uFYxc9yNhD4dmsF9aL4RyUxk5AKPR/omI4XuAfMF1jru0bbhNGjTpneKg+E/UIxbBltzZYaC2EULyXhUO1C00biW4HZ0vnXB+zEdAKX7hh9481TJYPZB6NW2qmZq5nwUmqxOK+RMqBgqgbyagK9R3T2vsZJEbyHbnEaPVKyQNA2rIUUUpinteBoNzhC0Rj+Wvkc4L17Zhz1D9WrlXuoc0ykf4IAIKjvc6syePa8yHXMaAonaGRB8sW86/PsMUOf3yTSHuQktXzvewPLSOWsFFBl5BLWYZMB3TbIu9KpANwd3d89HD44S8KU0ojYH09PSRJYmdskww==
   
 matrix:
   include:
@@ -49,3 +51,6 @@ build:
     - echo "$ZERO"
     - echo "$ONE"
     - echo "$THREE" #custom build env key
+    - echo t2=$t2 #t2: t2
+    - echo t1=$t1 #t1:t1
+    
