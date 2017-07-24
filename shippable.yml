@@ -16,8 +16,6 @@ env:
     b: 2
   - secure: jzH1QniWToavTBa8EMnGz6oAf9nMt+vZsEeNbpVkdRYWmxjc+98UTMcb9E389fxT6FpxGf65yaFYM2OW9LA3+XwpVtc4KyAC3UuxIl2/Wc6REZaRsy2RZiFbbgKso7xa7L46h1yC0RDUus6bgAnjzAC0C54rJTeS3DRvDHAPRZy8PAmqu/n73S5b/u7IU2GZIoc09o5sRnETvaYP7vKhMMgueFoZPdf1MKYMcSDabRwANk6Pul4kkZpsjYOcy4wOgJc/VFN3nyMmAvYugcAkkk6q7Fo2e7Qq6bpRiq2e1rSZ1M2gjYdQDjrsGor3x35wca20bLjruacjMuC/my2Z+g==
   - c=3 d=4
-  - secure: a3DUHoorfeMgxqf+tKkrg60J9oF6ayEvNUV53G0JsX67yoelt2CRwG0elwpqGxN6LciLnDIQbXFpQV2DkSu1Aj3tYkgBqx7AdIJurHluP3b+z2lsSIp/HEBZPCTaEwVuK7k09rs3xX3zcOUakhNDLjLPSKKqA4hC9U9Qi9UB+FMQQPi/82yoI5NiHawPZxBo4g/CHAyWqmd9QUk6jeZ/7MYvXC+4aWU+5+T/aPM5XD5pcO8va8j5O9+dy0JOR0sF2NR4Z9sh4JsPjwK8OEoas1Lfo/DoHg0GCuJpgFHns9V3tnvxx1QdvIi9c4HF7bHEIW/faLcGKtrDRRn99YR+fg==
-  - secure: FHr2+QGgkVSQ/uFYxc9yNhD4dmsF9aL4RyUxk5AKPR/omI4XuAfMF1jru0bbhNGjTpneKg+E/UIxbBltzZYaC2EULyXhUO1C00biW4HZ0vnXB+zEdAKX7hh9481TJYPZB6NW2qmZq5nwUmqxOK+RMqBgqgbyagK9R3T2vsZJEbyHbnEaPVKyQNA2rIUUUpinteBoNzhC0Rj+Wvkc4L17Zhz1D9WrlXuoc0ykf4IAIKjvc6syePa8yHXMaAonaGRB8sW86/PsMUOf3yTSHuQktXzvewPLSOWsFFBl5BLWYZMB3TbIu9KpANwd3d89HD44S8KU0ojYH09PSRJYmdskww==
   
 matrix:
   include:
@@ -51,8 +49,4 @@ build:
     - echo "$d"   
     - echo "$ZERO"
     - echo "$ONE"
-    - echo "$THREE" #custom build env key
-    - echo t2=$t2 #t2: t2
-    - echo t1=$t1 #t1:t1
-    
-  
+    - echo "$THREE" #custom build env key 
