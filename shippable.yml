@@ -21,4 +21,6 @@ build:
     - echo $GITHUB
     - echo build link $buildLink
     - cat SampleFile1000kb.txt
+    - echo $BUILD_NUMBER
   #  - curl www.bitbucket.org
+    - echo $JOB_TRIGGERED_BY_NAME_HACK
