@@ -29,7 +29,12 @@ matrix:
     #  env: *(RC=test
       env: testScript=verified
       #script: echo "$c"
-      script: echo "$testScript"
+      script: 
+        - echo "$testScript"
+        - docker --version
+        - docker info
+        - docker ps
+              
   
   allow_failures:
     - php: 7.1
