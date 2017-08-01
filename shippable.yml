@@ -27,7 +27,9 @@ matrix:
      #      secure: S/H82ozbN6HcFb5WOhJH+HdLuhBtKJrvGJ9W7fFCY6n7BjjayqMTsVQ5RE8Mg6CVu6sccDQgd/LEKz0VUwfnX5Uba0UOVfh116jbOPaZ0JRul3/ejcufY6ULVce0D1NsNBuXAd88t1uPB0jHaiLWN7Bm9NO0qwUtHcZgVEduSnQC/L2vpd4xkiARMdEbWUmVVTiodmEkemIMsjHZSrRzqEgzbfFw0iP3vkuX+vlM7fuyfIwDwUebGn48sCABSufKyEMfldth+iLdpL7mxSeP8YA3nofRr90xAKtGN/6pFxdqd4vkt7JSGYc3rnv6ZzNuzBPQk5rsASSkoZfNLiENcQ== #ISOLATED=false
     - php: 7.1
     #  env: *(RC=test
+      env: testScript=verified
       script: echo "$c"
+      script: echo "testScript=$testScript"
   
   allow_failures:
     - php: 7.1
@@ -39,6 +41,7 @@ build:
 
   ci:
     - php --version
+    - echo "SHIPPABLE_PHP_VERSION=$SHIPPABLE_PHP_VERSION"
     - echo "$FOO"
     - echo "$BOO"
     - echo "$ALPHA"
@@ -52,6 +55,6 @@ build:
     - echo "$ONE"
     - echo "$THREE" #custom build env key
     - echo "$FOUR"
-    - if [ "$SHIPPABLE_PHP_VERSION" == "7.1" ]; then foobar; fi
+    - if [ "$SHIPPABLE_PHP_VERSION" == "7.1.6" ]; then foobar; fi
     - echo "c=$c"
     - echo "d=$d"
