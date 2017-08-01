@@ -28,8 +28,8 @@ matrix:
     - php: 7.1
     #  env: *(RC=test
       env: testScript=verified
-      script: echo "$c"
-      script: echo "testScript=$testScript"
+      #script: echo "$c"
+      script: echo "$testScript"
   
   allow_failures:
     - php: 7.1
