@@ -22,5 +22,6 @@ build:
     - cat largetextfile4.9mb.txt
     - cat largetextfile5mb2.txt
     - cat largetextfile5mb3.txt
+    - cat 2.8mbfile.txt
     - cat SampleFile1000kb.txt
   #  - curl www.bitbucket.org
