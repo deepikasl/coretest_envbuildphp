@@ -10,7 +10,7 @@ env:
   global:
     - GITHUB=https://github.com
     - FOO=FAR 
-    - secure: N5FV6T13u7oi+hEWBxy+Ns/oLNFTC/V9nJwSNiBuVGCQa4XQ8I0RjF+j8EJTFP7xfwU/PS49wtveQ1BD+asiy6HDku4/TlharVQRH4pAevTUMcx4YSgpMxHaBbBQeg58XovmgsQWts1tUFIrJBiHyJmeEHmP0uygxtXyPCYdph0VsUllAVu2m77FFF3WgukUriyHGstpRMbmBUVNSJ4oFbveAtAQ786+wtTT823Yvy3tCotl6/lvgzKFKkR3bBWvt0MAgYguJuDnpZJXtLuVeHt31gqPl6n+/ATeMbN0r7xC+4ysLMTvUhpxwXLPOGUtHk4CXR12VU+q/rKVFoG3iQ==
+    # - secure: N5FV6T13u7oi+hEWBxy+Ns/oLNFTC/V9nJwSNiBuVGCQa4XQ8I0RjF+j8EJTFP7xfwU/PS49wtveQ1BD+asiy6HDku4/TlharVQRH4pAevTUMcx4YSgpMxHaBbBQeg58XovmgsQWts1tUFIrJBiHyJmeEHmP0uygxtXyPCYdph0VsUllAVu2m77FFF3WgukUriyHGstpRMbmBUVNSJ4oFbveAtAQ786+wtTT823Yvy3tCotl6/lvgzKFKkR3bBWvt0MAgYguJuDnpZJXtLuVeHt31gqPl6n+/ATeMbN0r7xC+4ysLMTvUhpxwXLPOGUtHk4CXR12VU+q/rKVFoG3iQ==
    # - c=3 d=4
      
 build:
